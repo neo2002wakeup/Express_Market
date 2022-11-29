@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+.container1 .card1 {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  -webkit-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+          box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container1 .card1:nth-child(1) .box1 .content1 a {
+  background: #2196f3;
+}
+
+.container1 .card1:nth-child(2) .box1 .content1 a {
+  background: #e91e63;
+}
+
+.container1 .card1:nth-child(3) .box1 .content1 a {
+  background: #23c186;
+}
+
+.container1 .card1:nth-child(4) .box1 .content1 a {
+  background: #2196f3;
+}
+
+.container1 .card1:nth-child(5) .box1 .content1 a {
+  background: #e91e63;
+}
+
+.container1 .card1:nth-child(6) .box1 .content1 a {
+  background: #23c186;
+}
+
+.container1 .card1 .box1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container1 .card1 .box1:hover {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.container1 .card1 .box1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.container1 .card1 .box1 .content1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.container1 .card1 .box1 .content1 h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.container1 .card1 .box1 .content1 h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.container1 .card1 .box1 .content1 p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container1 .card1 .box1 .content1 a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container1 .card1 .box1 .content1 a:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+main {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.p2-class {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  -o-border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+     border-image: -webkit-gradient(linear, left top, right top, from(#743ad5), to(#d53a9d));
+     border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: #34435E;
+}
+
+.p2-class:before {
+  content: counter(section);
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  height: 1.25em;
+  width: 2em;
+  background-color: #34435E;
+  text-align: center;
+  line-height: 0.25em;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.p2-class:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+
+.p2-class:nth-child(odd):before {
+  left: 100%;
+  margin-left: -20px;
+}
+
+.p2-class:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+}
+
+.p2-class:nth-child(even):before {
+  right: 100%;
+  margin-right: -20px;
+}
+
+.p2-class:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.p2-class:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/*# sourceMappingURL=about.css.map */
